@@ -14,12 +14,14 @@ import tensorflow_datasets as tfds
 
 train_file_path = 'NoWSp.csv'
 #train_file_path = "train.csv"
+# alternatively , accessing a dataset through a URL 
 #TRAIN_DATA_URL="train.csv"
 #TRAIN_DATA_URL = "https://storage.googleapis.com/tf-datasets/titanic/train.csv"
 #train_file_path = tf.keras.utils.get_file("train.csv", TRAIN_DATA_URL)
 
 test_file_path = "3.csv"
 csv_path_train = "1_beenManiped.csv"
+
 
 np.set_printoptions(precision=3, suppress=True)
 
