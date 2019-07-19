@@ -10,13 +10,13 @@ import fileinput
 
 
 print ("Text to search for:")
-textToSearch = '\t' 
+textToSearch = '[' 
 
 print ("Text to replace it with:")
 textToReplace = ''
 
 print ("File to perform Search-Replace on:")
-fileToSearch  = '1actualcsv.csv'
+fileToSearch  = 'NoWSp.csv'
 
 
 tempFile = open( fileToSearch, 'r+' )
